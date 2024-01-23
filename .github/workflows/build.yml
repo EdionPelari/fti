@@ -20,5 +20,5 @@ jobs:
       with:       
        username: ${{ secrets.DOCKER_HUB_USERNAME }} 
        password:  ${{ secrets.DOCKER_HUB_PASSWORD }}
-       repository: EdionPelari/fti       
+       repository: edionpelari/fti       
        tags: ${{github.run_number}}
